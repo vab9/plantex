@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Plant","Represents a plant in the game world."]]});

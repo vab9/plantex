@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Dimension2","A two-dimensional dimension."]],"type":[["Dimension2f",""],["Dimension2i",""],["Dimension2u",""]]});

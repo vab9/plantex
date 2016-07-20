@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["dot","Dot product of two vectors."],["vec1","The short constructor."],["vec2","The short constructor."],["vec3","The short constructor."],["vec4","The short constructor."]],"struct":[["Vector1","A 1-dimensional vector."],["Vector2","A 2-dimensional vector."],["Vector3","A 3-dimensional vector."],["Vector4","A 4-dimensional vector."]]});

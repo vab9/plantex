@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AxialPoint","A 2-dimensional point in axial coordinates. See [here][hex-blog] for more information."]]});

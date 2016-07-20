@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["deg","Create a new angle, in degrees"],["rad","Create a new angle, in radians"]],"struct":[["Deg","An angle, in degrees."],["Rad","An angle, in radians."]]});

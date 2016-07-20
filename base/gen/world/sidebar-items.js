@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["WorldGenerator","Main type to generate the game world. Implements the `WorldProvider` trait (TODO, see #8)."]]});

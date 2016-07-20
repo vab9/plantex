@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Decomposed","A generic transformation consisting of a rotation, displacement vector and scale amount."]],"trait":[["Transform","A trait representing an affine transformation that can be applied to points or vectors. An affine transformation is one which"],["Transform2",""],["Transform3",""]]});
