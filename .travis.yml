@@ -5,11 +5,13 @@ sudo: false
 git:
   depth: 1
 
-addons:
-  apt:
-    packages:
-      - gcc-5
-      - libstdc++5
+# addons:
+#   apt:
+#     sources:
+#       - ubuntu-toolchain-r-test
+#     packages:
+#       - gcc-5
+#       - libstdc++5
 
 before_script:
   - |
