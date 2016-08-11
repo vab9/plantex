@@ -19,10 +19,9 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - cmake
-    #   - cmake-data
+      - cmake-data
       - ninja-build
-      - gcc-5
-      - libstdc++5
+      - g++
 
 before_script:
   - |
