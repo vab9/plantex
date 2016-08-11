@@ -16,6 +16,7 @@ git:
 addons:
   apt:
     packages:
+      - cmake
       - ninja-build
 
 before_script:
