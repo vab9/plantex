@@ -17,7 +17,7 @@ git clone https://github.com/KhronosGroup/glslang.git
 cd glslang
 git clone https://github.com/google/googletest.git External/googletest
 cd ../
-cmake -GNinja -DCMAKE_BUILD_TYPE={Debug|Release|RelWithDebInfo} \
+cmake -GNinja -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_INSTALL_PREFIX=`pwd`/install glslang/
 ninja install
 cd ../

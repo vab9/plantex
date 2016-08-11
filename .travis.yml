@@ -13,6 +13,11 @@ git:
 #       - gcc-5
 #       - libstdc++5
 
+addons:
+  apt:
+    packages:
+      - ninja-build
+
 before_script:
   - |
       export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH &&
