@@ -22,6 +22,7 @@ addons:
       - cmake-data
       - ninja-build
       - g++-5
+      - c++-5
 
 before_script:
   - |
