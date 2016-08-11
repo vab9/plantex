@@ -13,7 +13,7 @@ set -e
 echo "need to install glslangValidator..."
 mkdir validator/
 cd validator/
-git clone git@github.com:KhronosGroup/glslang.git
+git clone https://github.com/KhronosGroup/glslang.git
 cd glslang
 git clone https://github.com/google/googletest.git External/googletest
 cd ../
