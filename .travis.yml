@@ -24,14 +24,12 @@ addons:
       - g++-5
       - c++-5
 
-env: COMPILER=g++-4.9
-
 before_script:
   - |
       export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH &&
       ci/install-tools.sh
   - |
-      export CXX=`which gcc-5`
+      export CXX=`which g++-5`
   - |
       ci/install-glslangValidator.sh
 script:
