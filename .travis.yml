@@ -29,7 +29,7 @@ before_script:
       export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH &&
       ci/install-tools.sh
   - |
-      export CXX=`which g++-5`
+      which g++-5; which g++; export CXX=`which g++-5`;
   - |
       ci/install-glslangValidator.sh
 script:
