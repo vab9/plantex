@@ -4,32 +4,22 @@ cache: cargo
 sudo: false
 git:
   depth: 1
-
-# addons:
-#   apt:
-#     sources:
-#       - ubuntu-toolchain-r-test
-#     packages:
-
-
 addons:
   apt:
     sources:
       - kalakris-cmake
-      - ubuntu-toolchain-r-test
     packages:
       - cmake
       - cmake-data
       - ninja-build
-      - g++-5
-      - c++-5
+      - clang-3.6
 
 before_script:
   - |
       export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH &&
       ci/install-tools.sh
   - |
-      which g++-5; which g++; export CXX=`which g++-5`;
+      export CC=clang-3.6 CXX=clang++-3.6;
   - |
       ci/install-glslangValidator.sh
 script:
