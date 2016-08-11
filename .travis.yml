@@ -7,8 +7,6 @@ git:
 
 addons:
   apt:
-    sources:
-      - ubuntu-toolchain-r-test
     packages:
       - gcc-5
       - libstdc++5
