@@ -18,8 +18,8 @@ cd glslang
 git clone https://github.com/google/googletest.git External/googletest
 cd ../
 cmake
-cmake -GNinja -DCMAKE_BUILD_TYPE=Release \
+cmake -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_INSTALL_PREFIX=`pwd`/install glslang/
-ninja install
+make install
 cd ../
 echo "installed glslangValidator to /validator/glslangValidator"
