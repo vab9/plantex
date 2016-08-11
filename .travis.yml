@@ -4,6 +4,15 @@ cache: cargo
 sudo: false
 git:
   depth: 1
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-5
+      - gcc-5
+
 before_script:
   - |
       export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH &&
