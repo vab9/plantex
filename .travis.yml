@@ -12,14 +12,14 @@ addons:
       - cmake
       - cmake-data
       - ninja-build
-      - clang-3.6
+      - clang-3.9
 
 before_script:
   - |
       export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH &&
       ci/install-tools.sh
   - |
-      export CC=clang-3.6 CXX=clang++-3.6;
+      export CC=clang-3.9 CXX=clang++-3.9;
   - |
       ci/install-glslangValidator.sh
 script:
