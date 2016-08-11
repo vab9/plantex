@@ -12,7 +12,7 @@ addons:
       - cmake
       - cmake-data
       - ninja-build
-      - clang-3.9
+      - clang
 
 before_script:
   - |
